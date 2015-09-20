@@ -39,6 +39,72 @@ a:hover {
 
 
 
+
+/* Annotated Text */
+#annotated-text{
+    background:#ea4d9b;
+    padding: .05rem .3rem;
+    color:white;
+}
+#annotated-text:hover{
+    background:#f287bd;
+}
+
+/* Scrolls */
+/* http://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-css3/ */
+/* http://stackoverflow.com/questions/28239277/how-to-make-responsive-popup-div */
+.modalDialog {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 30rem;
+    position: relative;
+    margin: 10% auto;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+    background: #E9DCF0;
+
+}
+
+.close {
+    background: #606061;
+    color: #FFFFFF;
+    font-size: .7rem;
+    position: absolute;
+    right: -.7rem;
+    text-align: center;
+    top: -.8rem;
+    line-height: 24px;
+    width: 24px;
+    text-decoration: none;
+    -webkit-border-radius: 6rem;
+    -moz-border-radius: 6rem;
+    border-radius: 6rem;
+
+}
+
+.close:hover { }
+
+
+
+
 .poem {
 	line-height: 3;
 }
