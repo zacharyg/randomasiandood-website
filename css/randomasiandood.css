@@ -1,0 +1,36 @@
+* {
+  font-family: Courier;
+}
+
+body{
+	background-color: #E9DCF0
+}
+
+h4 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+p {
+	font-size: 1em;
+}
+
+a {
+	color: #da5da4;
+}
+
+
+::selection {
+    background: #be2d56;
+    text-shadow: none;
+}
+::-moz-selection {
+    background: #be2d56;
+    text-shadow: none;
+}
+
+
+
+.poem {
+	line-height: 3;
+}
