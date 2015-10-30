@@ -1,18 +1,23 @@
 * {
   font-family: Courier;
+  color: #4d4d4d;
+}
+
+#non-story-text{
+    color: #FFF;
 }
 
 body{
-	background-color: #E9DCF0
+	background-color: #24201F
 }
 
 h4 {
-	color: #a61b26;
+	color: black;
 	font-size: 1em;
 	font-weight: bold;
 }
 strong {
-	color: #a61b26;
+	color: black;
 }
 
 p {
@@ -38,7 +43,16 @@ a:hover {
 }
 
 
+/*Paper*/
+#paper{
+    background-color: #FFF;
+    moz-border-radius: 8px;    /* Firefox 3.6-, removed in Firefox 13 */
+    -webkit-border-radius: 8px; /* Safari 4-, Chrome 3- */
+    border-radius: 8px;     /* Firefox 4+, Safari 5+, Chrome 4+, Opera 10.5+, IE9+ */
+    padding: 3em;
+    margin: 0 auto;
 
+}
 
 /* Annotated Text */
 #annotated-text{
